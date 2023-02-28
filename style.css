@@ -15,14 +15,6 @@
   --btn-tt-hover: #02799d;
 }
 
-.screen2 {
-  --bg-home: url(./assets/bg2.png);
-}
-
-.screen3 {
-  --bg-home: url(./assets/bg3.png);
-}
-
 .hide {
   display: none;
 }
@@ -35,7 +27,7 @@ body * {
 body {
   background: var(--bg-home) no-repeat top center/cover;
   height: 100vh;
-  padding: 4rem 7.2rem 0 7.2rem;
+  padding: 4rem 0 0;
 }
 
 nav {
@@ -43,6 +35,7 @@ nav {
   gap: 4.2rem;
   text-align: center;
   align-items: center;
+  padding-left: 7.2rem;
 }
 
 a {
@@ -94,6 +87,7 @@ button:hover {
 h2 {
   margin-top: 11.3rem;
   font-size: 48px;
+  padding-left: 7.2rem;
 }
 
 p {
@@ -102,4 +96,25 @@ p {
   margin-top: 1.6rem;
   max-width: 65rem;
   font-weight: 400;
+  padding-left: 7.2rem;
+}
+
+/* bg change */
+
+.page2 {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.page3 {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  z-index: -1;
 }
