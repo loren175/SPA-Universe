@@ -1,0 +1,23 @@
+{
+  "name": "spa-universe",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Conceito de SPA<br> (Single Page Applications) </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loren175/SPA-Universe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loren175/SPA-Universe/issues"
+  },
+  "homepage": "https://github.com/loren175/SPA-Universe#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
